@@ -1,0 +1,180 @@
+locale,translation_key,value,created_at,updated_at,original_translation,status
+zh_CN,themes.import_error.about_json,导入错误：about.json 不存在或无效。确定这是一个 Discourse 主题吗？,2025-08-03 14:18:21.347126,2025-08-03 14:18:21.347126,"Import Error: about.json does not exist, or is invalid. Are you sure this is a Discourse Theme?",0
+zh_CN,topic_statuses.autoclosed_enabled_days.other,此话题已在%{count}天后自动关闭，不再允许回复。,2025-08-04 13:15:26.934311,2025-08-04 13:15:26.934311,This topic was automatically closed after %{count} days. New replies are no longer allowed.,0
+zh_CN,js.chat.no_direct_message_channels,你还没有直接消息！,2025-08-03 22:54:30.366392,2025-08-03 22:54:30.366392,You have not joined any direct messages yet!,0
+zh_CN,chat_integration.provider.matrix.formatted_message,"%{user} 创建了新帖 <a href=""%{post_url}"">%{title}</a>
+",2025-08-04 03:55:36.334251,2025-08-04 03:55:50.205536,"<b>%{user}</b> posted in <b><a href='%{post_url}'>%{title}</a></b>
+<blockquote>
+%{excerpt}
+</blockquote>
+",0
+zh_CN,js.user.name.instructions,公开显示用的全名（可选）,2025-08-04 08:35:19.224546,2025-08-04 08:35:19.224546,Your full name (optional),0
+zh_CN,js.user.name.instructions_required,公开显示用的全名,2025-08-04 08:35:28.639833,2025-08-04 08:35:28.639833,Your full name,0
+zh_CN,dates.short_date_no_year,M月D日,2025-08-04 12:33:31.963074,2025-08-04 12:33:31.963074,D MMM,0
+zh_CN,js.dates.tiny.date_month,M月D日,2025-08-04 12:34:21.906969,2025-08-04 12:34:21.906969,MMM D,0
+zh_CN,js.dates.long_no_year_no_time,M月D日,2025-08-04 12:34:46.697536,2025-08-04 12:34:46.697536,MMM D,0
+zh_CN,js.dates.long_no_year,M月D日 HH:mm,2025-08-04 12:35:06.906479,2025-08-04 12:35:06.906479,"MMM D, h:mm a",0
+zh_CN,dates.long_date,YYYY年M月D日 H:mm,2025-08-04 12:36:35.113697,2025-08-04 12:36:35.113697,"MMMM D, YYYY h:mma",0
+zh_CN,dates.short_date,YYYY年M月D日,2025-08-04 12:37:30.847808,2025-08-04 12:37:30.847808,"D MMM, YYYY",0
+zh_CN,js.dates.long_with_year,YYYY年M月D日 HH:mm,2025-08-04 12:38:13.703284,2025-08-04 12:38:13.703284,"MMM D, YYYY h:mm a",0
+zh_CN,js.dates.tiny.x_days.other,%{count}天,2025-08-04 12:39:42.808421,2025-08-04 12:39:42.808421,%{count}d,0
+zh_CN,js.dates.medium.x_hours.other,%{count}小时,2025-08-04 12:40:25.435536,2025-08-04 12:40:25.435536,%{count} hours,0
+zh_CN,js.dates.tiny.about_x_hours.other,%{count}小时,2025-08-04 12:40:39.401202,2025-08-04 12:40:39.401202,%{count}h,0
+zh_CN,js.time_shortcut.in_two_hours,两小时后,2025-08-04 12:43:17.811224,2025-08-04 12:43:17.811224,In two hours,0
+zh_CN,js.dates.wrap_ago,%{date}前,2025-08-04 12:44:16.555547,2025-08-04 12:44:16.555547,%{date} ago,0
+zh_CN,js.dates.timeline_date,YYYY-MM,2025-08-04 12:58:02.913138,2025-08-04 12:58:02.913138,MMM YYYY,0
+zh_CN,js.dates.tiny.date_year,YYYY年M月D日,2025-08-04 12:39:02.39783,2025-08-04 13:01:42.431983,MMM YYYY,0
+zh_CN,js.dates.later.x_days.other,%{count}天后,2025-08-04 13:14:31.967935,2025-08-04 13:14:31.967935,%{count} days later,0
+zh_CN,user.deactivated_by_inactivity.other,已在闲置%{count}天后被自动停用,2025-08-04 13:14:47.970355,2025-08-04 13:14:47.970355,Automatically deactivated after %{count} days of inactivity,0
+zh_CN,topic_statuses.autoclosed_disabled_lastpost_days.other,此话题已在最后回复的%{count}天后自动打开。,2025-08-04 13:15:41.931518,2025-08-04 13:15:41.931518,This topic was automatically opened %{count} days after the last reply.,0
+zh_CN,topic_statuses.autoclosed_disabled_days.other,此话题已在%{count}天后自动打开。,2025-08-04 13:15:58.430138,2025-08-04 13:15:58.430138,This topic was automatically opened after %{count} days.,0
+zh_CN,topic_statuses.autoclosed_enabled_lastpost_days.other,此话题已在最后一次回复的%{count}天后自动关闭，不再允许回复。,2025-08-04 13:16:34.109399,2025-08-04 13:16:34.109399,This topic was automatically closed %{count} days after the last reply. New replies are no longer allowed.,0
+zh_CN,user.username.characters,只得包含汉字、数字、字母、连字符、点和下划线,2025-08-05 09:04:30.072505,2025-08-05 09:04:30.072505,"must only include numbers, letters, dashes, dots, and underscores",0
+zh_CN,js.user.change_username.invalid,该用户名无效，用户名只能包含汉字、数字、字母、连字符、点和下划线,2025-08-05 09:04:48.497095,2025-08-05 09:04:48.497095,That username is invalid. It must only include numbers and letters,0
+zh_CN,js.dates.later.x_years.other,%{count}年后,2025-08-05 12:58:29.845391,2025-08-05 12:58:29.845391,%{count} years later,0
+zh_CN,js.dates.later.x_months.other,%{count}个月后,2025-08-05 12:58:42.323937,2025-08-05 12:58:42.323937,%{count} months later,0
+zh_CN,js.dates.tiny.half_a_minute,< 1分钟,2025-08-05 12:59:28.323859,2025-08-05 12:59:28.323859,< 1m,0
+zh_CN,js.dates.tiny.x_months.other,%{count}个月,2025-08-05 12:59:36.384224,2025-08-05 12:59:36.384224,%{count}mon,0
+zh_CN,js.dates.tiny.over_x_years.other,> %{count}年,2025-08-05 12:59:42.660176,2025-08-05 12:59:42.660176,> %{count}y,0
+zh_CN,js.dates.tiny.almost_x_years.other,%{count}年,2025-08-05 12:59:49.584846,2025-08-05 12:59:49.584846,%{count}y,0
+zh_CN,js.dates.tiny.less_than_x_seconds.other,< %{count}秒,2025-08-05 12:59:54.987132,2025-08-05 12:59:54.987132,< %{count}s,0
+zh_CN,js.dates.tiny.about_x_years.other,%{count}年,2025-08-05 12:59:59.81412,2025-08-05 12:59:59.81412,%{count}y,0
+zh_CN,js.dates.tiny.less_than_x_minutes.other,< %{count}分钟,2025-08-05 13:00:08.234141,2025-08-05 13:00:08.234141,< %{count}m,0
+zh_CN,js.dates.tiny.x_minutes.other,%{count}分钟,2025-08-05 13:00:13.739788,2025-08-05 13:00:13.739788,%{count}m,0
+zh_CN,js.dates.tiny.x_seconds.other,%{count}秒,2025-08-05 13:00:19.87644,2025-08-05 13:00:19.87644,%{count}s,0
+zh_CN,js.dates.full_no_year_no_time,M月D日,2025-08-05 13:00:56.241312,2025-08-05 13:00:56.241312,MMMM Do,0
+zh_CN,js.dates.time_short,H:mm,2025-08-05 13:01:19.138201,2025-08-05 13:01:19.138201,h:mm,0
+zh_CN,js.dates.medium.x_days.other,%{count}天,2025-08-05 13:01:34.597296,2025-08-05 13:01:34.597296,%{count} days,0
+zh_CN,js.dates.medium.date_year,YYYY年M月D日,2025-08-05 13:01:57.834574,2025-08-05 13:01:57.834574,"MMM D, YYYY",0
+zh_CN,js.dates.medium_with_ago.x_years.other,%{count}年前,2025-08-05 13:02:05.281701,2025-08-05 13:02:05.281701,%{count} years ago,0
+zh_CN,js.dates.medium_with_ago.x_hours.other,%{count}小时前,2025-08-05 13:02:12.766564,2025-08-05 13:02:12.766564,%{count} hours ago,0
+zh_CN,js.dates.medium_with_ago.x_minutes.other,%{count}分钟前,2025-08-05 13:02:20.022725,2025-08-05 13:02:20.022725,%{count} mins ago,0
+zh_CN,js.dates.medium.almost_x_years.other,将近%{count}年,2025-08-05 13:02:30.325213,2025-08-05 13:02:30.325213,almost %{count} years,0
+zh_CN,js.dates.medium.about_x_years.other,大约%{count}年,2025-08-05 13:02:36.750359,2025-08-05 13:02:36.750359,about %{count} years,0
+zh_CN,js.dates.medium.about_x_hours.other,大约%{count}小时,2025-08-05 13:02:44.255324,2025-08-05 13:02:44.255324,about %{count} hours,0
+zh_CN,js.dates.long_date_with_year,YYYY年M月D日 LT,2025-08-05 13:04:25.813417,2025-08-05 13:04:25.813417,"MMM D, YYYY LT",0
+zh_CN,js.dates.long_date_with_year_without_time,YYYY年M月D日,2025-08-05 13:05:06.122275,2025-08-05 13:05:06.122275,"MMM D, YYYY",0
+zh_CN,js.dates.full_with_year_no_time,YYYY年M月D日,2025-08-05 13:03:02.053178,2025-08-05 13:03:02.053178,"MMMM Do, YYYY",0
+zh_CN,js.dates.medium.over_x_years.other,超过%{count}年,2025-08-05 13:03:09.974711,2025-08-05 13:03:09.974711,over %{count} years,0
+zh_CN,js.dates.medium_with_ago.x_days.other,%{count}天前,2025-08-05 13:03:16.368544,2025-08-05 13:03:16.368544,%{count} days ago,0
+zh_CN,js.dates.medium_with_ago.x_months.other,%{count}个月前,2025-08-05 13:03:23.174493,2025-08-05 13:03:23.174493,%{count} months ago,0
+zh_CN,js.dates.medium.x_months.other,%{count}个月,2025-08-05 13:03:36.367918,2025-08-05 13:03:36.367918,%{count} months,0
+zh_CN,js.dates.medium.x_minutes.other,%{count}分钟,2025-08-05 13:03:45.870423,2025-08-05 13:03:45.870423,%{count} mins,0
+zh_CN,js.dates.long_with_year_no_time,YYYY年M月D日,2025-08-05 13:03:57.310474,2025-08-05 13:03:57.310474,"MMM D, YYYY",0
+zh_CN,js.dates.long_date_without_year,M月D日 LT,2025-08-05 13:04:37.709816,2025-08-05 13:04:37.709816,"MMM D, LT",0
+zh_CN,js.dates.long_date_without_year_with_linebreak,M月D日<br>LT,2025-08-05 13:05:18.441109,2025-08-05 13:05:18.441109,MMM D <br/>LT,0
+zh_CN,js.dates.long_date_with_year_with_linebreak,YYYY年M月D日<br>LT,2025-08-05 13:05:26.096931,2025-08-05 13:05:26.096931,"MMM D, YYYY <br/>LT",0
+zh_CN,embed.imported_from,这是对位于 %{link} 之原始条目的讨论话题。,2025-08-06 14:03:33.556666,2025-08-06 14:03:33.556666,This is a companion discussion topic for the original entry at %{link},0
+zh_CN,js.post.notice.new_user,这是 %{user} 首次发帖 — 欢迎这位用户加入社区！,2025-08-07 09:00:02.605994,2025-08-07 09:00:02.605994,This is the first time %{user} has posted — let’s welcome them to our community!,0
+zh_CN,js.post.notice.returning_user,我们已经有一段时间没有看到 %{user} 了 — 这位用户上次发帖是%{time}。,2025-08-07 08:54:44.258341,2025-08-07 09:05:50.616675,It’s been a while since we’ve seen %{user} — their last post was %{time}.,0
+zh_CN,admin_js.admin.settings.show_overriden,仅显示被覆盖的设置,2025-08-07 15:05:07.396044,2025-08-07 15:05:07.396044,Only show overridden,0
+zh_CN,admin_js.admin.site_text.show_overriden,仅显示被覆盖的文本,2025-08-07 15:05:17.933701,2025-08-07 15:05:17.933701,Only show overridden,0
+zh_CN,site_settings.fast_typing_threshold,发布第一篇帖子时，用户必须输入的最短时间（以毫秒为单位）。如果未达到该阈值，帖子将自动进入审核队列。low 为 1 秒，standard 为 3 秒，high 为 5 秒。,2025-08-08 02:51:37.851388,2025-08-08 02:51:37.851388,"Minimum amount of time in milliseconds a user must type for their first post. If the threshold is not met, the post will automatically enter the review queue. Low is 1 second, standard is 3 seconds, high is 5 seconds.",0
+zh_CN,js.last_post,最后发布于,2025-08-08 13:53:31.540083,2025-08-08 13:53:31.540083,Posted,0
+zh_CN,js.time_read,阅读了,2025-08-08 14:02:11.611932,2025-08-08 14:02:11.611932,Read,0
+zh_CN,js.joined,加入于,2025-08-08 14:02:38.702583,2025-08-08 14:02:38.702583,Joined,0
+zh_CN,js.topic_statuses.pinned.help,此话题对您置顶，将显示在所属类别的顶部,2025-08-09 12:24:19.159261,2025-08-09 12:24:19.159261,This topic is pinned for you; it will display at the top of its category,0
+zh_CN,js.topic_statuses.unpinned.help,此话题对您取消置顶，将以常规顺序显示,2025-08-09 12:24:31.99714,2025-08-09 12:24:31.99714,This topic is unpinned for you; it will display in regular order,0
+zh_CN,site_settings.find_related_post_with_key,仅使用“回复键”查找回复的帖子。警告：禁用此功能将允许基于电子邮件地址的用户身份顶替。,2025-08-10 08:49:52.575799,2025-08-10 08:49:52.575799,Only use the 'reply key' to find the replied-to post. WARNING: disabling this allows user impersonation based on email address.,0
+zh_CN,js.user.mailing_list_mode.label,邮件列表模式,2025-08-12 08:59:17.227181,2025-08-12 08:59:17.227181,Mailing list mode,0
+zh_CN,unsubscribe.mailing_list_mode,关闭邮件列表模式,2025-08-12 08:59:25.68461,2025-08-12 08:59:25.68461,Turn off mailing list mode,0
+zh_CN,js.category.mailinglist_mirror,类别镜像一个邮件列表,2025-08-12 08:59:35.882791,2025-08-12 08:59:35.882791,Category mirrors a mailing list,0
+zh_CN,unsubscribe_mailing_list,"您收到此邮件是因为您启用了邮件列表模式。
+
+要退订这些电子邮件，请[点击此处](%{unsubscribe_url})。
+",2025-08-12 08:59:52.01618,2025-08-12 08:59:52.01618,"You are receiving this because you enabled mailing list mode.
+
+To unsubscribe from these emails, [click here](%{unsubscribe_url}).
+",0
+zh_CN,js.topic.notifications.reasons.mailing_list_mode,您已启用邮件列表模式，因此您将通过电子邮件收到对此话题回复的通知。,2025-08-12 09:00:04.389185,2025-08-12 09:00:04.389185,"You have mailing list mode enabled, so you will be notified of replies to this topic via email.",0
+zh_CN,js.user.mailing_list_mode.enabled,启用邮件列表模式,2025-08-12 09:00:12.203193,2025-08-12 09:00:12.203193,Enable mailing list mode,0
+zh_CN,js.user.mailing_list_mode.warning,邮件列表模式已启用。电子邮件通知设置被覆盖。,2025-08-12 09:00:20.151511,2025-08-12 09:00:20.151511,Mailing list mode enabled. Email notification settings are overridden.,0
+zh_CN,site_settings.default_email_mailing_list_mode_frequency,启用邮件列表模式的用户默认收到电子邮件的频率。,2025-08-12 09:00:50.684201,2025-08-12 09:00:50.684201,Users who enable mailing list mode will receive emails this often by default.,0
+zh_CN,site_settings.disable_mailing_list_mode,禁止用户启用邮件列表模式（阻止发送任何邮件列表电子邮件。）,2025-08-12 09:01:02.03184,2025-08-12 09:01:02.03184,Disallow users from enabling mailing list mode (prevents any mailing list emails from being sent.),0
+zh_CN,skipped_email_log.mailing_list_no_echo_mode,对用户自己的帖子禁用邮件列表通知,2025-08-12 09:01:45.091323,2025-08-12 09:01:45.091323,Mailing list notifications disabled for user's own posts,0
+zh_CN,js.topics.none.education.unread,没有未读话题，好耶！,2025-08-12 13:09:03.225435,2025-08-12 13:09:03.225435,Nothing left unread... impressive!,0
+zh_CN,js.topics.none.education.topic_tracking_preferences,"您可以在<a href=""%{basePath}/my/preferences/tracking"">您的偏好设置</a>中查看和更改新的主题跟踪设置。",2025-08-12 13:10:04.962241,2025-08-12 13:10:04.962241,"You can view and change your new topic tracking settings in <a href=""%{basePath}/my/preferences/tracking"">your preferences</a>.",0
+zh_CN,js.composer.composer_actions.toggle_topic_bump.label,切换是否顶帖,2025-08-17 14:26:00.802955,2025-08-17 14:26:00.802955,Toggle topic bump,0
+zh_CN,site_settings.remove_full_quote,"如果引用出现在帖子的开头、是整个帖子的引用、并且来自相邻帖子的引用，则自动删除引用。有关详细信息，请参阅<a href=""https://meta.discourse.org/t/removal-of-full-quotes-from-direct-replies/106857"" target=""_blank"">从直接回复中移除完整引用</a>",2025-08-19 06:11:45.654362,2025-08-19 06:11:45.654362,"Automatically remove quotation if (a) it appears at the start of a post, (b) it is of an entire post, and (c) it is from the immediately preceding post. For details, see <a href='https://meta.discourse.org/t/removal-of-full-quotes-from-direct-replies/106857' target='_blank'>Removal of full quotes from direct replies</a>",0
+zh_CN,js.review.view_source,查看源码,2025-08-29 03:25:07.931414,2025-08-29 03:25:07.931414,View source,0
+zh_CN,system_messages.email_revoked.title,电子邮件已撤销,2025-08-29 03:20:10.958103,2025-08-29 03:20:10.958103,Email Revoked,0
+zh_CN,js.solved.marked_solved_by,由 %{user} 标记为已解决,2025-08-04 12:27:10.51681,2025-08-19 16:37:39.674858,Marked as solved by %{user},0
+zh_CN,js.solved.accepted_answer_solver_info,在 %{post} 中被 %{user} 解决,2025-08-19 16:38:36.129524,2025-08-19 16:38:36.129524,Solved by %{user} in %{post},0
+zh_CN,js.solved.accepted_answer_post_number,帖子 #%{post_number},2025-08-19 16:39:19.69376,2025-08-19 16:39:19.69376,post %{post_number},0
+zh_CN,js.user.delete_account_confirm,确定要永久删除您的帐户吗？此操作无法撤销！,2025-08-29 03:20:18.164956,2025-08-29 03:20:18.164956,Are you sure you want to permanently delete your account? This action cannot be undone!,0
+zh_CN,js.topics.none.education.new,当前没有新内容……过一会儿再来！,2025-08-21 03:45:24.786797,2025-08-21 03:45:24.786797,Nothing new at the moment... check back soon!,0
+zh_CN,js.topics.none.education.new_new,当前没有新内容……过一会儿再来！,2025-08-21 03:45:33.414712,2025-08-21 03:45:33.414712,Nothing new at the moment... check back soon!,0
+zh_CN,admin_js.admin.badges.auto_revoke,每天运行撤销查询,2025-08-29 03:20:25.003567,2025-08-29 03:20:25.003567,Run revocation query daily,0
+zh_CN,js.poll.remove-vote.label,撤销投票,2025-08-29 03:20:31.091336,2025-08-29 03:20:31.091336,Undo vote,0
+zh_CN,admin_js.admin.api.revoked,已撤销,2025-08-29 03:20:36.956739,2025-08-29 03:20:36.956739,Revoked,0
+zh_CN,js.user.revoke_access,撤销访问权限,2025-08-29 03:20:43.250597,2025-08-29 03:20:43.250597,Revoke Access,0
+zh_CN,admin_js.admin.badges.revoke,撤销,2025-08-29 03:20:48.677832,2025-08-29 03:20:48.677832,Revoke,0
+zh_CN,js.group_histories.actions.remove_user_as_group_owner,撤销所有者,2025-08-29 03:20:54.484544,2025-08-29 03:20:54.484544,Revoke owner,0
+zh_CN,admin_js.admin.user.revoke_moderation,撤销审核权限,2025-08-29 03:20:59.987294,2025-08-29 03:20:59.987294,Revoke Moderation,0
+zh_CN,js.groups.requests.undo,撤销,2025-08-29 03:19:09.259233,2025-08-29 03:19:09.259233,Undo,0
+zh_CN,js.user.associated_accounts.revoke,撤销,2025-08-29 03:19:15.481003,2025-08-29 03:19:15.481003,Revoke,0
+zh_CN,admin_js.admin.api.revoke,撤销,2025-08-29 03:19:21.176381,2025-08-29 03:19:21.176381,Revoke,0
+zh_CN,js.groups.requests.undone,请求已撤销,2025-08-29 03:19:28.875211,2025-08-29 03:19:28.875211,request undone,0
+zh_CN,admin_js.admin.customize.colors.undo,撤销,2025-08-29 03:19:40.56863,2025-08-29 03:19:40.56863,Undo,0
+zh_CN,admin_js.admin.user.merge.confirmation.description,"<p><b>@%{username}</b> 的所有内容将被转移到 <b>%{targetUsername}</b>。在内容转移后，<b>@%{username}</b> 的帐户将被删除。</p>
+
+<p><b>此操作无法撤销！</b></p>
+
+<p>要继续，请输入 <code>%{text}</code></p>
+",2025-08-29 03:19:50.55085,2025-08-29 03:19:50.55085,"<p>All of <b>@%{username}'s</b> content will be transferred and attributed to <b>@%{targetUsername}</b>. After the content is transferred, <b>@%{username}'s</b> account will be deleted.</p>
+
+<p><b>This can not be undone!</b></p>
+
+<p>To continue type: <code>%{text}</code></p>
+",0
+zh_CN,admin_js.admin.user.delete_posts.confirmation.description,"<p>确定要删除 @%{username} 发布的 <b>%{post_count}</b> 个帖子吗？
+
+</p><p><b>此操作无法撤销！</b></p>
+
+<p>继续输入：<code>%{text}</code></p>
+",2025-08-29 03:19:58.007502,2025-08-29 03:19:58.007502,"<p>Are you sure you would like to delete <b>%{post_count}</b> posts by @%{username}?
+
+<p><b>This can not be undone!</b></p>
+
+<p>To continue type: <code>%{text}</code></p>
+",0
+zh_CN,js.user.second_factor.delete_single_confirm_message,您正在删除 %{name}。此操作无法撤销。如果您改变主意，则必须重新注册此身份验证器。,2025-08-29 03:20:04.688855,2025-08-29 03:20:04.688855,"You are deleting %{name}. You can't undo this action. If you change your mind, you have to register this authenticator again.",0
+zh_CN,admin_js.admin.badges.revoke_confirm,确定要撤销此徽章吗？,2025-08-29 03:21:05.694178,2025-08-29 03:21:05.694178,Are you sure you want to revoke this badge?,0
+zh_CN,admin_js.admin.logs.staff_actions.actions.revoke_title,撤销头衔,2025-08-29 03:21:10.833109,2025-08-29 03:21:10.833109,revoke title,0
+zh_CN,staff_action_logs.api_key.automatic_revoked.other,已被自动撤销，上次活动超过 %{count} 天前,2025-08-29 03:21:17.700218,2025-08-29 03:21:17.700218,"Automatically revoked, last activity more than %{count} days ago",0
+zh_CN,admin_js.admin.logs.staff_actions.actions.revoke_badge,撤销徽章,2025-08-29 03:21:23.429367,2025-08-29 03:21:23.429367,revoke badge,0
+zh_CN,associated_accounts.revoke_failed,无法使用 %{provider_name} 撤销您的帐户。,2025-08-29 03:21:32.453651,2025-08-29 03:21:32.453651,Failed to revoke your account with %{provider_name}.,0
+zh_CN,admin_js.admin.user.delete_confirm_title,确定要删除此用户吗？此操作无法撤销！,2025-08-29 03:21:39.356723,2025-08-29 03:21:39.356723,Are you sure you want to delete this user? This is permanent!,0
+zh_CN,admin_js.admin.logs.staff_actions.actions.revoke_email,撤销电子邮件,2025-08-29 03:21:44.608209,2025-08-29 03:21:44.608209,revoke email,0
+zh_CN,admin_js.admin.customize.colors.undo_title,撤销自上次保存以来对此颜色所做的变更。,2025-08-29 03:21:50.997596,2025-08-29 03:21:50.997596,Undo your changes to this color since the last time it was saved.,0
+zh_CN,admin_js.admin.logs.staff_actions.actions.revoke_admin,撤销管理员权限,2025-08-29 03:21:57.537124,2025-08-29 03:21:57.537124,revoke admin,0
+zh_CN,js.user.undo_revoke_access,撤销访问权限撤销操作,2025-08-29 03:22:09.164798,2025-08-29 03:22:09.164798,Undo Revoke Access,0
+zh_CN,admin_js.admin.user.revoke_admin,撤销管理员权限,2025-08-29 03:22:14.951419,2025-08-29 03:22:14.951419,Revoke Admin,0
+zh_CN,staff_action_logs.api_key.revoked,已撤销,2025-08-29 03:22:20.746795,2025-08-29 03:22:20.746795,Revoked,0
+zh_CN,staff_action_logs.api_key.automatic_revoked_max_life.other,已被自动撤销，超过 %{count} 天前创建,2025-08-29 03:22:29.553554,2025-08-29 03:22:29.553554,"Automatically revoked, created at more than %{count} days ago",0
+zh_CN,js.user.second_factor.delete_backup_codes_confirm_message,您正在删除备份代码。此操作无法撤销。如果您改变主意，则必须重新生成备份代码。,2025-08-29 03:22:42.636531,2025-08-29 03:22:42.636531,"You are deleting backup codes. You can't undo this action. If you change your mind, you have to regenerate backup codes.",0
+zh_CN,site_settings.post_voting_undo_vote_action_window,允许用户在“帖子投票”话题中撤销投票的分钟数（0 为不限制）,2025-08-29 03:22:52.792498,2025-08-29 03:22:52.792498,Number of minutes users are allowed to undo votes in Post Voting topics (enter 0 for no limit),0
+zh_CN,site_settings.post_undo_action_window_mins,允许撤销对帖子的最近操作（例如，举报等）的分钟数。,2025-08-29 03:23:00.698836,2025-08-29 03:23:00.698836,"Number of minutes users are allowed to undo recent actions on a post (like, flag, etc).",0
+zh_CN,js.chat.incoming_webhooks.confirm_destroy,确定要删除此传入网络钩子吗？此操作无法撤销。,2025-08-29 03:23:08.857077,2025-08-29 03:23:08.857077,Are you sure you want to delete this incoming webhook? This cannot be un-done.,0
+zh_CN,vote.error.undo_vote_action_window.other,您无法在投票后的 %{count} 分钟后撤销投票。,2025-08-29 03:23:16.624296,2025-08-29 03:23:16.624296,You cannot undo vote %{count} minutes after voting.,0
+zh_CN,js.post.revisions.controls.destroy_confirm,确定要删除此帖子的所有修订吗？此操作无法撤销。,2025-08-29 03:23:24.203527,2025-08-29 03:23:24.203527,Are you sure you want to delete all of the revisions on this post? This action is permanent.,0
+zh_CN,admin_js.admin.logs.staff_actions.actions.revoke_moderation,撤销审核权限,2025-08-29 03:23:30.612052,2025-08-29 03:23:30.612052,revoke moderation,0
+zh_CN,admin_js.admin.customize.theme.source_url,源码,2025-08-29 03:24:55.93784,2025-08-29 03:24:55.93784,Source,0
+zh_CN,admin_js.admin.logs.staff_actions.previous_value,旧,2025-08-29 13:45:43.069871,2025-08-29 13:45:43.069871,Previous,0
+zh_CN,badges.solved_4.name,解决方案专家,2026-02-16 13:26:09.411523,2026-02-16 13:26:09.411523,Solution Institution,0
+zh_CN,admin_js.admin.config_sections.reports.title,报告,2025-10-08 14:42:54.428429,2025-10-08 14:42:54.428429,Reports,0
+zh_CN,admin_js.admin.config.reports.title,报告,2025-10-08 14:43:06.489875,2025-10-08 14:43:06.489875,Reports,0
+zh_CN,js.topic_count_latest.other,查看 %{count} 个新的或更新过的话题,2025-09-16 06:13:21.934543,2025-09-16 06:13:21.934543,See %{count} new or updated topics,0
+zh_CN,js.discourse_ai.embeddings.semantic_search_results.zero_results_expanded,找到零个结果；显示%{count}个AI搜索结果,2025-11-07 13:04:44.531529,2025-11-07 13:04:44.531529,"Zero results found, showing %{count} AI results",0
+zh_CN,js.user.staff_counters.silencings.other,"被禁言<span class=""%{className}"">%{count}</span>次",2025-11-19 11:44:04.417252,2025-11-19 11:44:04.417252,"<span class=""%{className}"">%{count}</span> silenced",0
+zh_CN,skipped_email_log.user_email_user_suspended_not_pm,用户被封禁且不是私信,2025-11-19 15:21:13.061636,2025-11-19 15:21:13.061636,"User is suspended, not a message",0
+zh_CN,onebox.github.opened,打开于,2025-09-08 06:27:38.369473,2025-09-08 06:27:38.369473,opened,0
+zh_CN,onebox.github.closed,关闭于,2025-09-08 06:27:46.229243,2025-09-08 06:27:46.229243,closed,0
+zh_CN,onebox.github.committed,提交于,2025-09-08 06:27:55.571087,2025-09-08 06:27:55.571087,committed,0
+zh_CN,js.solved.accepted_html,"%{icon} <span class=""by"">被 <a href="""">%{username}</a></span> 于 <a href=""%{post_path}"" class=""back"">帖子 #%{post_number}</a> 中解决",2025-08-04 12:30:32.825031,2025-08-04 12:30:32.825031,%{icon} Solved <span class='by'>by <a href data-user-card='%{username_lower}'>%{username}</a></span> in <a href='%{post_path}' class='back'>post #%{post_number}</a>,3
+zh_CN,admin_js.admin.logs.search_logs.types.header,页眉,2025-10-05 14:33:09.792962,2025-10-05 14:33:09.792962,Header,0
+zh_CN,admin_js.admin.logs.search_logs.header_search_results,页眉搜索结果,2025-10-05 14:33:43.492791,2025-10-05 14:33:43.492791,Header search results,0
+zh_CN,emails.incoming.errors.from_reply_by_address_error,当“发件人”标头与“回复到”地址匹配时，就会发生这种情况。,2025-10-05 14:35:05.091635,2025-10-05 14:35:05.091635,Happens when the From header matches the reply by email address.,0
+zh_CN,site_settings.set_locale_from_accept_language_header,为匿名用户从网络浏览器的语言标头设置界面语言,2025-10-05 14:35:30.127432,2025-10-05 14:35:30.127432,Set interface language for anonymous users from their web browser's language headers,0
+zh_CN,js.search.advanced.filters.posted,我发的帖,2026-01-06 15:12:20.426042,2026-01-06 15:12:20.426042,I posted in,0
+zh_CN,chat_integration.provider.matrix.text_message,%{user} 创建了新帖 %{title} - %{post_url},2025-12-30 02:19:12.54579,2025-12-30 02:19:12.54579,%{user} posted in %{title} - %{post_url},0
