@@ -1,0 +1,141 @@
+locale,translation_key,value,created_at,updated_at,original_translation,status
+zh_CN,groups.default_full_names.trust_level_0,信任级别 0,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+zh_CN,groups.default_full_names.trust_level_1,信任级别 1,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+zh_CN,groups.default_full_names.trust_level_2,信任级别 2,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+zh_CN,groups.default_full_names.trust_level_3,信任级别 3,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+zh_CN,groups.default_full_names.trust_level_4,信任级别 4,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+zh_CN,js.forgot_password.complete_email_found,我们找到一个与 <b>%{email}</b> 匹配的帐户。您应该会很快收到一封电子邮件，其中包含有关如何重置密码的说明。,2026-07-04 00:00:00,2026-07-04 00:00:00,"""我们找到一个与 <b>%{email}</b> 匹配的帐户。您应该会收到一封电子邮件，其中包含有关如何尽快重置密码的说明。""",0
+zh_CN,js.languages.en.name,English,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+zh_CN,js.languages.zh_TW.name,繁體中文,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+zh_CN,js.login.oidc.name,Codeberg,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+zh_CN,js.login.oidc.title,使用 Codeberg 登录,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+zh_CN,js.login.second_factor_backup_title,双重验证备份,2026-07-04 00:00:00,2026-07-04 00:00:00,"""双重备份""",0
+zh_CN,js.notifications.dismiss_confirmation.body.messages.other,确定吗？您有 %{count} 条未读个人消息。,2026-07-04 00:00:00,2026-07-04 00:00:00,"""确定吗？您有 %{count} 条未读个人信息。""",0
+zh_CN,js.notifications.linked_consolidated_description.other,链接了您的 %{count} 个帖子,2026-07-04 00:00:00,2026-07-04 00:00:00,"""点赞了您的 %{count} 个帖子""",0
+zh_CN,js.notifications.replied_consolidated_in_topic.other,你的话题中有 %{count} 条新回复,2026-07-04 00:00:00,2026-07-04 00:00:00,"""%{count} 你的话题中有新回复""",0
+zh_CN,js.notifications.replied_consolidated_to_post.other,您的帖子有 %{count} 条新回复,2026-07-04 00:00:00,2026-07-04 00:00:00,"""%{count} 您的帖子有新回复""",0
+zh_CN,js.notifications.titles.linked_consolidated,新链接,2026-07-04 00:00:00,2026-07-04 00:00:00,"""个新链接""",0
+zh_CN,js.user_menu.tabs.messages,个人消息,2026-07-04 00:00:00,2026-07-04 00:00:00,"""个人信息""",0
+zh_CN,js.user_menu.tabs.messages_with_unread.other,个人消息 - %{count} 条未读消息,2026-07-04 00:00:00,2026-07-04 00:00:00,"""个人信息 - %{count} 条未读信息""",0
+zh_TW,admin_js.admin.badges.auto_revoke,每天執行撤銷查詢,2026-07-04 00:00:00,2026-07-04 00:00:00,每日執行撤銷用的 SQL 語法,0
+zh_TW,admin_js.admin.badges.revoke,撤銷,2026-07-04 00:00:00,2026-07-04 00:00:00,撤回,0
+zh_TW,admin_js.admin.badges.revoke_confirm,確定要撤銷此徽章嗎？,2026-07-04 00:00:00,2026-07-04 00:00:00,你確定要撤回這個徽章?,0
+zh_TW,admin_js.admin.customize.colors.undo_title,復原自上次儲存後對此顏色所做的變更。,2026-07-04 00:00:00,2026-07-04 00:00:00,復原你前次對此顏色所做的修改,0
+zh_TW,admin_js.admin.customize.theme.source_url,原始碼,2026-07-04 00:00:00,2026-07-04 00:00:00,來源：,0
+zh_TW,admin_js.admin.logs.search_logs.header_search_results,頁首搜尋結果,2026-07-04 00:00:00,2026-07-04 00:00:00,標題搜尋結果,0
+zh_TW,admin_js.admin.logs.staff_actions.actions.revoke_badge,撤銷徽章,2026-07-04 00:00:00,2026-07-04 00:00:00,撤回徽章,0
+zh_TW,admin_js.admin.logs.staff_actions.actions.revoke_email,撤銷電子郵件,2026-07-04 00:00:00,2026-07-04 00:00:00,撤銷郵件,0
+zh_TW,admin_js.admin.settings.show_overriden,僅顯示被覆寫的設定,2026-07-04 00:00:00,2026-07-04 00:00:00,只顯示被覆寫的內容,0
+zh_TW,admin_js.admin.site_text.show_overriden,僅顯示被覆寫的文字,2026-07-04 00:00:00,2026-07-04 00:00:00,只顯示修改過的項目,0
+zh_TW,associated_accounts.revoke_failed,無法使用 %{provider_name} 撤銷你的帳戶。,2026-07-04 00:00:00,2026-07-04 00:00:00,無法使用%{provider_name}刪除你的帳戶。,0
+zh_TW,badges.solved_4.name,解決方案專家,2026-07-04 00:00:00,2026-07-04 00:00:00,Solution Institution,0
+zh_TW,chat_integration.provider.matrix.formatted_message,"%{user} 發表了新貼文 <a href=""%{post_url}"">%{title}</a>
+",2026-07-04 00:00:00,2026-07-04 00:00:00,"<b>%{user}</b> posted in <b><a href='%{post_url}'>%{title}</a></b>
+<blockquote>
+%{excerpt}
+</blockquote>
+",0
+zh_TW,chat_integration.provider.matrix.text_message,%{user} 在 %{title} 發表了貼文 - %{post_url},2026-07-04 00:00:00,2026-07-04 00:00:00,%{user} posted in %{title} - %{post_url},0
+zh_TW,dates.long_date,YYYY年M月D日 H:mm,2026-07-04 00:00:00,2026-07-04 00:00:00,"MMMM D, YYYY h:mma",0
+zh_TW,dates.short_date,YYYY年M月D日,2026-07-04 00:00:00,2026-07-04 00:00:00,"D MMM, YYYY",0
+zh_TW,dates.short_date_no_year,M月D日,2026-07-04 00:00:00,2026-07-04 00:00:00,D MMM,0
+zh_TW,emails.incoming.errors.from_reply_by_address_error,當「寄件者」標頭與回覆用的電子郵件地址相符時，就會發生這種情況。,2026-07-04 00:00:00,2026-07-04 00:00:00,當「來自」標頭的 email 與回覆的 email 相符時會發生。,0
+zh_TW,embed.imported_from,這是針對位於 %{link} 的原始條目所開設的討論話題。,2026-07-04 00:00:00,2026-07-04 00:00:00,這是一個已從原 %{link} 中分離的主題,0
+zh_TW,groups.default_full_names.trust_level_0,信任級別 0,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+zh_TW,groups.default_full_names.trust_level_1,信任級別 1,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+zh_TW,groups.default_full_names.trust_level_2,信任級別 2,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+zh_TW,groups.default_full_names.trust_level_3,信任級別 3,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+zh_TW,groups.default_full_names.trust_level_4,信任級別 4,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+zh_TW,js.category.mailinglist_mirror,類別鏡像一個郵件列表,2026-07-04 00:00:00,2026-07-04 00:00:00,以類別來區分郵件列表,0
+zh_TW,js.chat.incoming_webhooks.confirm_destroy,確定要刪除這個傳入 Webhook 嗎？此操作無法復原。,2026-07-04 00:00:00,2026-07-04 00:00:00,Are you sure you want to delete this incoming webhook? This cannot be un-done.,0
+zh_TW,js.chat.no_direct_message_channels,你還沒有任何私訊！,2026-07-04 00:00:00,2026-07-04 00:00:00,You have not joined any direct messages yet!,0
+zh_TW,js.composer.composer_actions.toggle_topic_bump.label,切換是否頂文,2026-07-04 00:00:00,2026-07-04 00:00:00,Do not bump,0
+zh_TW,js.create_account.progress_bar.activate,啟用,2026-07-04 00:00:00,2026-07-04 00:00:00,"""啟動""",0
+zh_TW,js.dates.full_no_year_no_time,M月D日,2026-07-04 00:00:00,2026-07-04 00:00:00,MMMM D 日,0
+zh_TW,js.dates.full_with_year_no_time,YYYY年M月D日,2026-07-04 00:00:00,2026-07-04 00:00:00,YYYY 年 MMMM D 日,0
+zh_TW,js.dates.long_date_with_year,YYYY年M月D日 LT,2026-07-04 00:00:00,2026-07-04 00:00:00,YYYY 年 MMM D 日 LT,0
+zh_TW,js.dates.long_date_with_year_with_linebreak,YYYY年M月D日<br>LT,2026-07-04 00:00:00,2026-07-04 00:00:00,YYYY 年 MMM D 日<br/>LT,0
+zh_TW,js.dates.long_date_with_year_without_time,YYYY年M月D日,2026-07-04 00:00:00,2026-07-04 00:00:00,YYYY 年 MMM D 日,0
+zh_TW,js.dates.long_date_without_year,M月D日 LT,2026-07-04 00:00:00,2026-07-04 00:00:00,MMM D 日 LT,0
+zh_TW,js.dates.long_date_without_year_with_linebreak,M月D日<br>LT,2026-07-04 00:00:00,2026-07-04 00:00:00,MMM D 日<br/>LT,0
+zh_TW,js.dates.long_no_year,M月D日 HH:mm,2026-07-04 00:00:00,2026-07-04 00:00:00,"MMM D, h:mm a",0
+zh_TW,js.dates.long_no_year_no_time,M月D日,2026-07-04 00:00:00,2026-07-04 00:00:00,MMM D 日,0
+zh_TW,js.dates.long_with_year,YYYY年M月D日 HH:mm,2026-07-04 00:00:00,2026-07-04 00:00:00,YYYY 年 MMM D 日 HH:mm,0
+zh_TW,js.dates.long_with_year_no_time,YYYY年M月D日,2026-07-04 00:00:00,2026-07-04 00:00:00,YYYY 年 MMM D 日,0
+zh_TW,js.dates.medium.almost_x_years.other,將近%{count}年,2026-07-04 00:00:00,2026-07-04 00:00:00,大約 %{count} 年,0
+zh_TW,js.dates.medium.date_year,YYYY年M月D日,2026-07-04 00:00:00,2026-07-04 00:00:00,YYYY 年 MMM D 日,0
+zh_TW,js.dates.time_short,H:mm,2026-07-04 00:00:00,2026-07-04 00:00:00,h:mm,0
+zh_TW,js.dates.timeline_date,YYYY-MM,2026-07-04 00:00:00,2026-07-04 00:00:00,YYYY年 M月,0
+zh_TW,js.dates.tiny.date_month,M月D日,2026-07-04 00:00:00,2026-07-04 00:00:00,M月 D日,0
+zh_TW,js.dates.tiny.date_year,YYYY年M月D日,2026-07-04 00:00:00,2026-07-04 00:00:00,YYYY年 M月,0
+zh_TW,js.dates.wrap_ago,%{date}前,2026-07-04 00:00:00,2026-07-04 00:00:00,%{date} 前,0
+zh_TW,js.discourse_ai.embeddings.semantic_search_results.zero_results_expanded,找不到任何結果；顯示 %{count} 個 AI 搜尋結果,2026-07-04 00:00:00,2026-07-04 00:00:00,"Zero results found, showing %{count} AI results",0
+zh_TW,js.forgot_password.title,重設密碼,2026-07-04 00:00:00,2026-07-04 00:00:00,"""寄出密碼""",0
+zh_TW,js.groups.requests.undone,請求已復原,2026-07-04 00:00:00,2026-07-04 00:00:00,請求未完成,0
+zh_TW,js.languages.en.name,English,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+zh_TW,js.languages.zh_CN.name,简体中文,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+zh_TW,js.languages.zh_TW.name,繁體中文,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+zh_TW,js.last_post,最後發表於,2026-07-04 00:00:00,2026-07-04 00:00:00,最新貼文,0
+zh_TW,js.login.oidc.name,Codeberg,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+zh_TW,js.login.oidc.title,使用 Codeberg 登入,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+zh_TW,js.login.passkey.name,使用通行密鑰登入,2026-07-04 00:00:00,2026-07-04 00:00:00,"""使用密碼登入""",0
+zh_TW,js.notifications.liked_consolidated_description.other,對你的 %{count} 則貼文按讚,2026-07-04 00:00:00,2026-07-04 00:00:00,"""說你的%{count}則貼文讚""",0
+zh_TW,js.notifications.linked_consolidated_description.other,連結了您的 %{count} 個貼文,2026-07-04 00:00:00,2026-07-04 00:00:00,"""按讚了您的 %{count} 個貼文""",0
+zh_TW,js.notifications.popup.custom,來自 %{username} 在 %{site_title} 的通知,2026-07-04 00:00:00,2026-07-04 00:00:00,"""新的通知由%{username}在%{site_title}""",0
+zh_TW,js.notifications.titles.votes_released,投票額度已釋放,2026-07-04 00:00:00,2026-07-04 00:00:00,"""投票結果已公佈""",0
+zh_TW,js.poll.remove-vote.label,撤銷投票,2026-07-04 00:00:00,2026-07-04 00:00:00,Undo vote,0
+zh_TW,js.post.revisions.controls.destroy_confirm,確定要刪除這篇貼文的所有修訂嗎？此操作無法復原。,2026-07-04 00:00:00,2026-07-04 00:00:00,您確定要刪除此帖子的所有修訂嗎？此操作是永久性的。,0
+zh_TW,js.review.view_source,檢視原始碼,2026-07-04 00:00:00,2026-07-04 00:00:00,View source,0
+zh_TW,js.sidebar.footer.interface_color_selector.light,淺色,2026-07-04 00:00:00,2026-07-04 00:00:00,"""輕亮""",0
+zh_TW,js.sidebar.sections.community.links.review.pending_count.other,%{count} 個待處理,2026-07-04 00:00:00,2026-07-04 00:00:00,"""剩餘 %{count}""",0
+zh_TW,js.sidebar.sections.custom.links.name.label,名稱,2026-07-04 00:00:00,2026-07-04 00:00:00,"""姓名""",0
+zh_TW,js.sidebar.sections.messages.links.new_with_count,新 (%{count}),2026-07-04 00:00:00,2026-07-04 00:00:00,"""近期 (%{count})""",0
+zh_TW,js.sidebar.sections.tags.header_action_title,編輯您的側邊欄標籤,2026-07-04 00:00:00,2026-07-04 00:00:00,"""編輯您的側標條標記""",0
+zh_TW,js.sidebar.tags_form_modal.title,編輯標籤導航,2026-07-04 00:00:00,2026-07-04 00:00:00,"""編輯標記導航""",0
+zh_TW,js.solved.accepted_answer_solver_info,在 %{post} 中由 %{user} 解決,2026-07-04 00:00:00,2026-07-04 00:00:00,by %{user} in %{post},0
+zh_TW,js.solved.accepted_html,%{icon} <span class='by'>由 <a href data-user-card='%{username_lower}'>%{username}</a></span> 在 <a href='%{post_path}' class='back'>貼文 #%{post_number}</a> 中解決,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+zh_TW,js.solved.marked_solved_by,由 %{user} 標記為已解決,2026-07-04 00:00:00,2026-07-04 00:00:00,accepted by %{user},0
+zh_TW,js.time_read,閱讀了,2026-07-04 00:00:00,2026-07-04 00:00:00,已讀,0
+zh_TW,js.time_shortcut.in_two_hours,兩小時後,2026-07-04 00:00:00,2026-07-04 00:00:00,兩小時內,0
+zh_TW,js.topic_statuses.pinned.help,此話題已為您置頂，將顯示在所屬分類的最上方,2026-07-04 00:00:00,2026-07-04 00:00:00,此話題已置頂，將顯示在它所屬分類話題列表的最上方,0
+zh_TW,js.topic_statuses.unpinned.help,此話題已為您取消置頂，將以一般順序顯示,2026-07-04 00:00:00,2026-07-04 00:00:00,此話題已取消置頂，將會以預設順序顯示。,0
+zh_TW,js.topics.none.education.new,目前沒有新內容……過一會兒再回來看看！,2026-07-04 00:00:00,2026-07-04 00:00:00,Nothing new at the moment... check back soon!,0
+zh_TW,js.topics.none.education.new_new,目前沒有新內容……過一會兒再回來看看！,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+zh_TW,js.topics.none.education.topic_tracking_preferences,"您可以在<a href=""%{basePath}/my/preferences/tracking"">您的偏好設定</a>中檢視並變更新主題的追蹤設定。",2026-07-04 00:00:00,2026-07-04 00:00:00,"You can view and change your new topic tracking settings in <a href=""%{basePath}/my/preferences/tracking"">your preferences</a>.",0
+zh_TW,js.topics.none.education.unread,沒有未讀話題，太棒了！,2026-07-04 00:00:00,2026-07-04 00:00:00,Nothing left unread... impressive!,0
+zh_TW,js.user.change_username.invalid,該使用者名稱無效，使用者名稱只能包含漢字、數字、字母、連字號、點和底線,2026-07-04 00:00:00,2026-07-04 00:00:00,此使用者名稱無效，只能使用數字與英文字母。,0
+zh_TW,js.user.delete_account_confirm,確定要永久刪除您的帳號嗎？此動作無法復原！,2026-07-04 00:00:00,2026-07-04 00:00:00,你真的要刪除帳號嗎？刪除後將無法還原。,0
+zh_TW,js.user.email.instructions,不會公開顯示,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+zh_TW,js.user.mailing_list_mode.warning,已啟用郵件列表模式。電子郵件通知設定已被覆寫。,2026-07-04 00:00:00,2026-07-04 00:00:00,已啟用郵寄名單模式。郵件通知設定已被複寫。,0
+zh_TW,js.user.name.instructions,公開顯示用的全名（選填）,2026-07-04 00:00:00,2026-07-04 00:00:00,您的全名 (選填),0
+zh_TW,js.user.name.instructions_required,公開顯示用的全名,2026-07-04 00:00:00,2026-07-04 00:00:00,您的暱稱,0
+zh_TW,js.user.passkeys.confirm_button,或使用通行密鑰,2026-07-04 00:00:00,2026-07-04 00:00:00,"""或使用密鑰""",0
+zh_TW,js.user.passkeys.not_allowed_error,通行密鑰註冊過程超時、被取消或不被允許。,2026-07-04 00:00:00,2026-07-04 00:00:00,"""密鑰註冊過程超時、被取消或不被允許。""",0
+zh_TW,js.user.passkeys.passkey_successfully_created,成功！您的新通行密鑰已建立。,2026-07-04 00:00:00,2026-07-04 00:00:00,"""成功！您的新密鑰已建立。""",0
+zh_TW,js.user.revoke_access,撤銷存取權限,2026-07-04 00:00:00,2026-07-04 00:00:00,撤銷許可,0
+zh_TW,js.user.second_factor_backup.copied_to_clipboard,已複製至剪貼簿,2026-07-04 00:00:00,2026-07-04 00:00:00,"""複製至剪貼簿""",0
+zh_TW,js.user.staff_counters.silencings.other,"被禁言<span class=""%{className}"">%{count}</span>次",2026-07-04 00:00:00,2026-07-04 00:00:00,"<span class=""%{className}"">%{count}</span> silenced",0
+zh_TW,js.user.undo_revoke_access,復原撤銷存取權,2026-07-04 00:00:00,2026-07-04 00:00:00,解除撤銷許可,0
+zh_TW,onebox.github.closed,關閉於,2026-07-04 00:00:00,2026-07-04 00:00:00,不公開,0
+zh_TW,onebox.github.committed,提交於,2026-07-04 00:00:00,2026-07-04 00:00:00,committed,0
+zh_TW,onebox.github.opened,開啟於,2026-07-04 00:00:00,2026-07-04 00:00:00,已打開,0
+zh_TW,site_settings.disable_mailing_list_mode,禁止使用者啟用郵件列表模式（防止發送任何郵件列表電子郵件。）,2026-07-04 00:00:00,2026-07-04 00:00:00,Disallow users from enabling mailing list mode (prevents any mailing list emails from being sent.),0
+zh_TW,site_settings.fast_typing_threshold,使用者發表第一篇貼文時必須輸入的最短時間（以毫秒為單位）。若未達到此門檻，貼文將自動進入審核佇列。low 為 1 秒，standard 為 3 秒，high 為 5 秒。,2026-07-04 00:00:00,2026-07-04 00:00:00,"Minimum amount of time a user must type for their first post. If the threshold is not met, the post will automatically enter the review queue. Low is 1 second, standard is 3 seconds, high is 5 seconds.",0
+zh_TW,site_settings.find_related_post_with_key,僅使用『回覆金鑰』來尋找被回覆的貼文。警告：停用此功能將允許他人以電子郵件地址冒充使用者身分。,2026-07-04 00:00:00,2026-07-04 00:00:00,只使用「回覆按鈕」尋找回覆貼文。 警告：禁用此功能，允許使用者基於電子郵件地址進行模擬。,0
+zh_TW,site_settings.post_voting_undo_vote_action_window,允許使用者在「貼文投票」主題中撤銷投票的分鐘數（輸入 0 表示不限制）,2026-07-04 00:00:00,2026-07-04 00:00:00,Number of minutes users are allowed to undo votes in Post Voting topics (enter 0 for no limit),0
+zh_TW,site_settings.remove_full_quote,"如果引用出現在貼文的開頭、是整篇貼文的引用、並且來自緊鄰的前一篇貼文，則自動移除引用。詳情請參閱<a href=""https://meta.discourse.org/t/removal-of-full-quotes-from-direct-replies/106857"" target=""_blank"">從直接回覆中移除完整引用</a>",2026-07-04 00:00:00,2026-07-04 00:00:00,"Automatically remove quotation if (a) it appears at the start of a post, (b) it is of an entire post, and (c) it is from the immediately preceding post. For details, see <a href='https://meta.discourse.org/t/removal-of-full-quotes-from-direct-replies/106857' target='_blank'>Removal of full quotes from direct replies</a>",0
+zh_TW,site_settings.set_locale_from_accept_language_header,根據匿名使用者網頁瀏覽器的語言標頭設定介面語言,2026-07-04 00:00:00,2026-07-04 00:00:00,Set interface language for anonymous users from their web browser's language headers,0
+zh_TW,skipped_email_log.mailing_list_no_echo_mode,已對使用者自己的貼文停用郵件列表通知,2026-07-04 00:00:00,2026-07-04 00:00:00,郵件列表通知已對用戶自己的帖子禁用,0
+zh_TW,skipped_email_log.user_email_user_suspended_not_pm,使用者已被停權，且非私人訊息,2026-07-04 00:00:00,2026-07-04 00:00:00,使用者已被停權，不是訊息,0
+zh_TW,staff_action_logs.api_key.automatic_revoked.other,已自動撤銷，上次活動超過 %{count} 天前,2026-07-04 00:00:00,2026-07-04 00:00:00,"Automatically revoked, last activity more than %{count} days ago",0
+zh_TW,staff_action_logs.api_key.automatic_revoked_max_life.other,已被自動撤銷，超過 %{count} 天前建立,2026-07-04 00:00:00,2026-07-04 00:00:00,"Automatically revoked, created at more than %{count} days ago",0
+zh_TW,staff_action_logs.api_key.revoked,已撤銷,2026-07-04 00:00:00,2026-07-04 00:00:00,Revoked,0
+zh_TW,system_messages.email_revoked.title,電子郵件已撤銷,2026-07-04 00:00:00,2026-07-04 00:00:00,電子郵件被撤回,0
+zh_TW,themes.import_error.about_json,匯入錯誤：about.json 不存在或無效。確定這是一個 Discourse 佈景主題嗎？,2026-07-04 00:00:00,2026-07-04 00:00:00,"Import Error: about.json does not exist, or is invalid. Are you sure this is a Discourse Theme?",0
+zh_TW,topic_statuses.autoclosed_disabled_lastpost_days.other,此話題已在最後回覆的%{count}天後自動開啟。,2026-07-04 00:00:00,2026-07-04 00:00:00,這個討論話題在上次回覆後的前%{count}天內自動開啟,0
+zh_TW,topic_statuses.autoclosed_enabled_days.other,此主題已在%{count}天後自動關閉，不再允許回覆。,2026-07-04 00:00:00,2026-07-04 00:00:00,該主題在創建%{count}天后自動關閉。不再允許添加新回覆。,0
+zh_TW,topic_statuses.autoclosed_enabled_lastpost_days.other,此話題已在最後一次回覆的%{count}天後自動關閉，不再允許回覆。,2026-07-04 00:00:00,2026-07-04 00:00:00,該主題在最後一個回覆創建後%{count}天后自動關閉。不再允許新的回覆。,0
+zh_TW,user.deactivated_by_inactivity.other,已在閒置%{count}天後被自動停用,2026-07-04 00:00:00,2026-07-04 00:00:00,Automatically deactivated after %{count} days of inactivity,0
+zh_TW,user.username.characters,只能包含漢字、數字、字母、連字號、點和底線,2026-07-04 00:00:00,2026-07-04 00:00:00,"must only include numbers, letters, dashes, dots, and underscores",0
+en,js.login.oidc.name,Codeberg,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
+en,js.login.oidc.title,Log in with Codeberg,2026-07-04 00:00:00,2026-07-04 00:00:00,,0
