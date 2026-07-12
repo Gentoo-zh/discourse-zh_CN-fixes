@@ -1,0 +1,87 @@
+# server.zh_CN.yml — 由 scripts/merge 生成，勿手改；改源见 README
+zh_CN:
+  associated_accounts:
+    revoke_failed: 无法使用 %{provider_name} 撤销您的帐户。
+  badges:
+    solved_4:
+      name: 解决方案专家
+  chat_integration:
+    provider:
+      matrix:
+        formatted_message: '%{user} 创建了新帖 <a href="%{post_url}">%{title}</a>
+
+          '
+        text_message: '%{user} 创建了新帖 %{title} - %{post_url}'
+  dates:
+    long_date: YYYY年M月D日 H:mm
+    short_date: YYYY年M月D日
+    short_date_no_year: M月D日
+  emails:
+    incoming:
+      errors:
+        from_reply_by_address_error: 当“发件人”标头与“回复到”地址匹配时，就会发生这种情况。
+  embed:
+    imported_from: 这是对位于 %{link} 之原始条目的讨论话题。
+  groups:
+    default_full_names:
+      trust_level_0: 信任级别 0
+      trust_level_1: 信任级别 1
+      trust_level_2: 信任级别 2
+      trust_level_3: 信任级别 3
+      trust_level_4: 信任级别 4
+  onebox:
+    github:
+      closed: 关闭于
+      committed: 提交于
+      opened: 打开于
+  site_settings:
+    default_email_mailing_list_mode_frequency: 启用邮件列表模式的用户默认收到电子邮件的频率。
+    disable_mailing_list_mode: 禁止用户启用邮件列表模式（阻止发送任何邮件列表电子邮件。）
+    fast_typing_threshold: 发布第一篇帖子时，用户必须输入的最短时间（以毫秒为单位）。如果未达到该阈值，帖子将自动进入审核队列。low 为 1 秒，standard 为 3 秒，high 为 5 秒。
+    find_related_post_with_key: 仅使用“回复键”查找回复的帖子。警告：禁用此功能将允许基于电子邮件地址的用户身份顶替。
+    post_undo_action_window_mins: 允许撤销对帖子的最近操作（例如，举报等）的分钟数。
+    post_voting_undo_vote_action_window: 允许用户在“帖子投票”话题中撤销投票的分钟数（0 为不限制）
+    remove_full_quote: 如果引用出现在帖子的开头、是整个帖子的引用、并且来自相邻帖子的引用，则自动删除引用。有关详细信息，请参阅<a href="https://meta.discourse.org/t/removal-of-full-quotes-from-direct-replies/106857" target="_blank">从直接回复中移除完整引用</a>
+    set_locale_from_accept_language_header: 为匿名用户从网络浏览器的语言标头设置界面语言
+  skipped_email_log:
+    mailing_list_no_echo_mode: 对用户自己的帖子禁用邮件列表通知
+    user_email_user_suspended_not_pm: 用户被封禁且不是私信
+  staff_action_logs:
+    api_key:
+      automatic_revoked:
+        other: 已被自动撤销，上次活动超过 %{count} 天前
+      automatic_revoked_max_life:
+        other: 已被自动撤销，超过 %{count} 天前创建
+      revoked: 已撤销
+  system_messages:
+    email_revoked:
+      title: 电子邮件已撤销
+  themes:
+    import_error:
+      about_json: 导入错误：about.json 不存在或无效。确定这是一个 Discourse 主题吗？
+  topic_statuses:
+    autoclosed_disabled_days:
+      other: 此话题已在%{count}天后自动打开。
+    autoclosed_disabled_lastpost_days:
+      other: 此话题已在最后回复的%{count}天后自动打开。
+    autoclosed_enabled_days:
+      other: 此话题已在%{count}天后自动关闭，不再允许回复。
+    autoclosed_enabled_lastpost_days:
+      other: 此话题已在最后一次回复的%{count}天后自动关闭，不再允许回复。
+  unsubscribe:
+    mailing_list_mode: 关闭邮件列表模式
+  unsubscribe_mailing_list: '您收到此邮件是因为您启用了邮件列表模式。
+
+
+    要退订这些电子邮件，请[点击此处](%{unsubscribe_url})。
+
+    '
+  user:
+    deactivated_by_inactivity:
+      other: 已在闲置%{count}天后被自动停用
+    username:
+      characters: 只得包含汉字、数字、字母、连字符、点和下划线
+  vote:
+    error:
+      undo_vote_action_window:
+        other: 您无法在投票后的 %{count} 分钟后撤销投票。

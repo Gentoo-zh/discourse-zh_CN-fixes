@@ -1,0 +1,258 @@
+# client.zh_CN.yml — 由 scripts/merge 生成，勿手改；改源见 README
+zh_CN:
+  admin_js:
+    admin:
+      api:
+        revoke: 撤销
+        revoked: 已撤销
+      badges:
+        auto_revoke: 每天运行撤销查询
+        revoke: 撤销
+        revoke_confirm: 确定要撤销此徽章吗？
+      config:
+        reports:
+          title: 报告
+      config_sections:
+        reports:
+          title: 报告
+      customize:
+        colors:
+          undo: 撤销
+          undo_title: 撤销自上次保存以来对此颜色所做的变更。
+        theme:
+          source_url: 源码
+      logs:
+        search_logs:
+          header_search_results: 页眉搜索结果
+          types:
+            header: 页眉
+        staff_actions:
+          actions:
+            revoke_admin: 撤销管理员权限
+            revoke_badge: 撤销徽章
+            revoke_email: 撤销电子邮件
+            revoke_moderation: 撤销审核权限
+            revoke_title: 撤销头衔
+          previous_value: 旧
+      settings:
+        show_overriden: 仅显示被覆盖的设置
+      site_text:
+        show_overriden: 仅显示被覆盖的文本
+      user:
+        delete_confirm_title: 确定要删除此用户吗？此操作无法撤销！
+        delete_posts:
+          confirmation:
+            description: '<p>确定要删除 @%{username} 发布的 <b>%{post_count}</b> 个帖子吗？
+
+
+              </p><p><b>此操作无法撤销！</b></p>
+
+
+              <p>继续输入：<code>%{text}</code></p>
+
+              '
+        merge:
+          confirmation:
+            description: '<p><b>@%{username}</b> 的所有内容将被转移到 <b>%{targetUsername}</b>。在内容转移后，<b>@%{username}</b> 的帐户将被删除。</p>
+
+
+              <p><b>此操作无法撤销！</b></p>
+
+
+              <p>要继续，请输入 <code>%{text}</code></p>
+
+              '
+        revoke_admin: 撤销管理员权限
+        revoke_moderation: 撤销审核权限
+  js:
+    category:
+      mailinglist_mirror: 类别镜像一个邮件列表
+    chat:
+      incoming_webhooks:
+        confirm_destroy: 确定要删除此传入网络钩子吗？此操作无法撤销。
+      no_direct_message_channels: 你还没有直接消息！
+    composer:
+      composer_actions:
+        toggle_topic_bump:
+          label: 切换是否顶帖
+    dates:
+      full_no_year_no_time: M月D日
+      full_with_year_no_time: YYYY年M月D日
+      later:
+        x_days:
+          other: '%{count}天后'
+        x_months:
+          other: '%{count}个月后'
+        x_years:
+          other: '%{count}年后'
+      long_date_with_year: YYYY年M月D日 LT
+      long_date_with_year_with_linebreak: YYYY年M月D日<br>LT
+      long_date_with_year_without_time: YYYY年M月D日
+      long_date_without_year: M月D日 LT
+      long_date_without_year_with_linebreak: M月D日<br>LT
+      long_no_year: M月D日 HH:mm
+      long_no_year_no_time: M月D日
+      long_with_year: YYYY年M月D日 HH:mm
+      long_with_year_no_time: YYYY年M月D日
+      medium:
+        about_x_hours:
+          other: 大约%{count}小时
+        about_x_years:
+          other: 大约%{count}年
+        almost_x_years:
+          other: 将近%{count}年
+        date_year: YYYY年M月D日
+        over_x_years:
+          other: 超过%{count}年
+        x_days:
+          other: '%{count}天'
+        x_hours:
+          other: '%{count}小时'
+        x_minutes:
+          other: '%{count}分钟'
+        x_months:
+          other: '%{count}个月'
+      medium_with_ago:
+        x_days:
+          other: '%{count}天前'
+        x_hours:
+          other: '%{count}小时前'
+        x_minutes:
+          other: '%{count}分钟前'
+        x_months:
+          other: '%{count}个月前'
+        x_years:
+          other: '%{count}年前'
+      time_short: H:mm
+      timeline_date: YYYY-MM
+      tiny:
+        about_x_hours:
+          other: '%{count}小时'
+        about_x_years:
+          other: '%{count}年'
+        almost_x_years:
+          other: '%{count}年'
+        date_month: M月D日
+        date_year: YYYY年M月D日
+        half_a_minute: < 1分钟
+        less_than_x_minutes:
+          other: < %{count}分钟
+        less_than_x_seconds:
+          other: < %{count}秒
+        over_x_years:
+          other: '> %{count}年'
+        x_days:
+          other: '%{count}天'
+        x_minutes:
+          other: '%{count}分钟'
+        x_months:
+          other: '%{count}个月'
+        x_seconds:
+          other: '%{count}秒'
+      wrap_ago: '%{date}前'
+    discourse_ai:
+      embeddings:
+        semantic_search_results:
+          zero_results_expanded: 找到零个结果；显示%{count}个AI搜索结果
+    forgot_password:
+      complete_email_found: 我们找到一个与 <b>%{email}</b> 匹配的帐户。您应该会很快收到一封电子邮件，其中包含有关如何重置密码的说明。
+    group_histories:
+      actions:
+        remove_user_as_group_owner: 撤销所有者
+    groups:
+      requests:
+        undo: 撤销
+        undone: 请求已撤销
+    joined: 加入于
+    languages:
+      en:
+        name: English
+      zh_TW:
+        name: 繁體中文
+    last_post: 最后发布于
+    login:
+      oidc:
+        name: Codeberg
+        title: 使用 Codeberg 登录
+      second_factor_backup_title: 双重验证备份
+    notifications:
+      dismiss_confirmation:
+        body:
+          messages:
+            other: 确定吗？您有 %{count} 条未读个人消息。
+      linked_consolidated_description:
+        other: 链接了您的 %{count} 个帖子
+      replied_consolidated_in_topic:
+        other: 你的话题中有 %{count} 条新回复
+      replied_consolidated_to_post:
+        other: 您的帖子有 %{count} 条新回复
+      titles:
+        linked_consolidated: 新链接
+    poll:
+      remove-vote:
+        label: 撤销投票
+    post:
+      notice:
+        new_user: 这是 %{user} 首次发帖 — 欢迎这位用户加入社区！
+        returning_user: 我们已经有一段时间没有看到 %{user} 了 — 这位用户上次发帖是%{time}。
+      revisions:
+        controls:
+          destroy_confirm: 确定要删除此帖子的所有修订吗？此操作无法撤销。
+    review:
+      view_source: 查看源码
+    search:
+      advanced:
+        filters:
+          posted: 我发的帖
+    solved:
+      accepted_answer_post_number: '帖子 #%{post_number}'
+      accepted_answer_solver_info: 在 %{post} 中被 %{user} 解决
+      accepted_html: '%{icon} <span class="by">被 <a href="">%{username}</a></span> 于 <a href="%{post_path}" class="back">帖子 #%{post_number}</a> 中解决'
+      marked_solved_by: 由 %{user} 标记为已解决
+    time_read: 阅读了
+    time_shortcut:
+      in_two_hours: 两小时后
+    topic:
+      notifications:
+        reasons:
+          mailing_list_mode: 您已启用邮件列表模式，因此您将通过电子邮件收到对此话题回复的通知。
+    topic_count_latest:
+      other: 查看 %{count} 个新的或更新过的话题
+    topic_statuses:
+      pinned:
+        help: 此话题对您置顶，将显示在所属类别的顶部
+      unpinned:
+        help: 此话题对您取消置顶，将以常规顺序显示
+    topics:
+      none:
+        education:
+          new: 当前没有新内容……过一会儿再来！
+          new_new: 当前没有新内容……过一会儿再来！
+          topic_tracking_preferences: 您可以在<a href="%{basePath}/my/preferences/tracking">您的偏好设置</a>中查看和更改新的主题跟踪设置。
+          unread: 没有未读话题，好耶！
+    user:
+      associated_accounts:
+        revoke: 撤销
+      change_username:
+        invalid: 该用户名无效，用户名只能包含汉字、数字、字母、连字符、点和下划线
+      delete_account_confirm: 确定要永久删除您的帐户吗？此操作无法撤销！
+      mailing_list_mode:
+        enabled: 启用邮件列表模式
+        label: 邮件列表模式
+        warning: 邮件列表模式已启用。电子邮件通知设置被覆盖。
+      name:
+        instructions: 公开显示用的全名（可选）
+        instructions_required: 公开显示用的全名
+      revoke_access: 撤销访问权限
+      second_factor:
+        delete_backup_codes_confirm_message: 您正在删除备份代码。此操作无法撤销。如果您改变主意，则必须重新生成备份代码。
+        delete_single_confirm_message: 您正在删除 %{name}。此操作无法撤销。如果您改变主意，则必须重新注册此身份验证器。
+      staff_counters:
+        silencings:
+          other: 被禁言<span class="%{className}">%{count}</span>次
+      undo_revoke_access: 撤销访问权限撤销操作
+    user_menu:
+      tabs:
+        messages: 个人消息
+        messages_with_unread:
+          other: 个人消息 - %{count} 条未读消息

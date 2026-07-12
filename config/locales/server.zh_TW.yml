@@ -1,0 +1,71 @@
+# server.zh_TW.yml — 由 scripts/merge 生成，勿手改；改源见 README
+zh_TW:
+  associated_accounts:
+    revoke_failed: 無法使用 %{provider_name} 撤銷你的帳戶。
+  badges:
+    solved_4:
+      name: 解決方案專家
+  chat_integration:
+    provider:
+      matrix:
+        formatted_message: '%{user} 發表了新貼文 <a href="%{post_url}">%{title}</a>
+
+          '
+        text_message: '%{user} 在 %{title} 發表了貼文 - %{post_url}'
+  dates:
+    long_date: YYYY年M月D日 H:mm
+    short_date: YYYY年M月D日
+    short_date_no_year: M月D日
+  emails:
+    incoming:
+      errors:
+        from_reply_by_address_error: 當「寄件者」標頭與回覆用的電子郵件地址相符時，就會發生這種情況。
+  embed:
+    imported_from: 這是針對位於 %{link} 的原始條目所開設的討論話題。
+  groups:
+    default_full_names:
+      trust_level_0: 信任級別 0
+      trust_level_1: 信任級別 1
+      trust_level_2: 信任級別 2
+      trust_level_3: 信任級別 3
+      trust_level_4: 信任級別 4
+  onebox:
+    github:
+      closed: 關閉於
+      committed: 提交於
+      opened: 開啟於
+  site_settings:
+    disable_mailing_list_mode: 禁止使用者啟用郵件列表模式（防止發送任何郵件列表電子郵件。）
+    fast_typing_threshold: 使用者發表第一篇貼文時必須輸入的最短時間（以毫秒為單位）。若未達到此門檻，貼文將自動進入審核佇列。low 為 1 秒，standard 為 3 秒，high 為 5 秒。
+    find_related_post_with_key: 僅使用『回覆金鑰』來尋找被回覆的貼文。警告：停用此功能將允許他人以電子郵件地址冒充使用者身分。
+    post_voting_undo_vote_action_window: 允許使用者在「貼文投票」主題中撤銷投票的分鐘數（輸入 0 表示不限制）
+    remove_full_quote: 如果引用出現在貼文的開頭、是整篇貼文的引用、並且來自緊鄰的前一篇貼文，則自動移除引用。詳情請參閱<a href='https://meta.discourse.org/t/removal-of-full-quotes-from-direct-replies/106857' target='_blank'>從直接回覆中移除完整引用</a>
+    set_locale_from_accept_language_header: 根據匿名使用者網頁瀏覽器的語言標頭設定介面語言
+  skipped_email_log:
+    mailing_list_no_echo_mode: 已對使用者自己的貼文停用郵件列表通知
+    user_email_user_suspended_not_pm: 使用者已被停權，且非私人訊息
+  staff_action_logs:
+    api_key:
+      automatic_revoked:
+        other: 已自動撤銷，上次活動超過 %{count} 天前
+      automatic_revoked_max_life:
+        other: 已被自動撤銷，超過 %{count} 天前建立
+      revoked: 已撤銷
+  system_messages:
+    email_revoked:
+      title: 電子郵件已撤銷
+  themes:
+    import_error:
+      about_json: 匯入錯誤：about.json 不存在或無效。確定這是一個 Discourse 佈景主題嗎？
+  topic_statuses:
+    autoclosed_disabled_lastpost_days:
+      other: 此話題已在最後回覆的%{count}天後自動開啟。
+    autoclosed_enabled_days:
+      other: 此主題已在%{count}天後自動關閉，不再允許回覆。
+    autoclosed_enabled_lastpost_days:
+      other: 此話題已在最後一次回覆的%{count}天後自動關閉，不再允許回覆。
+  user:
+    deactivated_by_inactivity:
+      other: 已在閒置%{count}天後被自動停用
+    username:
+      characters: 只能包含漢字、數字、字母、連字號、點和底線

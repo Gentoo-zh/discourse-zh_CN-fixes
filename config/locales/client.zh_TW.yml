@@ -1,0 +1,163 @@
+# client.zh_TW.yml — 由 scripts/merge 生成，勿手改；改源见 README
+zh_TW:
+  admin_js:
+    admin:
+      badges:
+        auto_revoke: 每天執行撤銷查詢
+        revoke: 撤銷
+        revoke_confirm: 確定要撤銷此徽章嗎？
+      customize:
+        colors:
+          undo_title: 復原自上次儲存後對此顏色所做的變更。
+        theme:
+          source_url: 原始碼
+      logs:
+        search_logs:
+          header_search_results: 頁首搜尋結果
+        staff_actions:
+          actions:
+            revoke_badge: 撤銷徽章
+            revoke_email: 撤銷電子郵件
+      settings:
+        show_overriden: 僅顯示被覆寫的設定
+      site_text:
+        show_overriden: 僅顯示被覆寫的文字
+  js:
+    category:
+      mailinglist_mirror: 類別鏡像一個郵件列表
+    chat:
+      incoming_webhooks:
+        confirm_destroy: 確定要刪除這個傳入 Webhook 嗎？此操作無法復原。
+      no_direct_message_channels: 你還沒有任何私訊！
+    composer:
+      composer_actions:
+        toggle_topic_bump:
+          label: 切換是否頂文
+    create_account:
+      progress_bar:
+        activate: 啟用
+    dates:
+      full_no_year_no_time: M月D日
+      full_with_year_no_time: YYYY年M月D日
+      long_date_with_year: YYYY年M月D日 LT
+      long_date_with_year_with_linebreak: YYYY年M月D日<br>LT
+      long_date_with_year_without_time: YYYY年M月D日
+      long_date_without_year: M月D日 LT
+      long_date_without_year_with_linebreak: M月D日<br>LT
+      long_no_year: M月D日 HH:mm
+      long_no_year_no_time: M月D日
+      long_with_year: YYYY年M月D日 HH:mm
+      long_with_year_no_time: YYYY年M月D日
+      medium:
+        almost_x_years:
+          other: 將近%{count}年
+        date_year: YYYY年M月D日
+      time_short: H:mm
+      timeline_date: YYYY-MM
+      tiny:
+        date_month: M月D日
+        date_year: YYYY年M月D日
+      wrap_ago: '%{date}前'
+    discourse_ai:
+      embeddings:
+        semantic_search_results:
+          zero_results_expanded: 找不到任何結果；顯示 %{count} 個 AI 搜尋結果
+    forgot_password:
+      title: 重設密碼
+    groups:
+      requests:
+        undone: 請求已復原
+    languages:
+      en:
+        name: English
+      zh_CN:
+        name: 简体中文
+      zh_TW:
+        name: 繁體中文
+    last_post: 最後發表於
+    login:
+      oidc:
+        name: Codeberg
+        title: 使用 Codeberg 登入
+      passkey:
+        name: 使用通行密鑰登入
+    notifications:
+      liked_consolidated_description:
+        other: 對你的 %{count} 則貼文按讚
+      linked_consolidated_description:
+        other: 連結了您的 %{count} 個貼文
+      popup:
+        custom: 來自 %{username} 在 %{site_title} 的通知
+      titles:
+        votes_released: 投票額度已釋放
+    poll:
+      remove-vote:
+        label: 撤銷投票
+    post:
+      revisions:
+        controls:
+          destroy_confirm: 確定要刪除這篇貼文的所有修訂嗎？此操作無法復原。
+    review:
+      view_source: 檢視原始碼
+    sidebar:
+      footer:
+        interface_color_selector:
+          light: 淺色
+      sections:
+        community:
+          links:
+            review:
+              pending_count:
+                other: '%{count} 個待處理'
+        custom:
+          links:
+            name:
+              label: 名稱
+        messages:
+          links:
+            new_with_count: 新 (%{count})
+        tags:
+          header_action_title: 編輯您的側邊欄標籤
+      tags_form_modal:
+        title: 編輯標籤導航
+    solved:
+      accepted_answer_solver_info: 在 %{post} 中由 %{user} 解決
+      accepted_html: '%{icon} <span class=''by''>由 <a href data-user-card=''%{username_lower}''>%{username}</a></span> 在 <a href=''%{post_path}'' class=''back''>貼文 #%{post_number}</a> 中解決'
+      marked_solved_by: 由 %{user} 標記為已解決
+    time_read: 閱讀了
+    time_shortcut:
+      in_two_hours: 兩小時後
+    topic_statuses:
+      pinned:
+        help: 此話題已為您置頂，將顯示在所屬分類的最上方
+      unpinned:
+        help: 此話題已為您取消置頂，將以一般順序顯示
+    topics:
+      none:
+        education:
+          new: 目前沒有新內容……過一會兒再回來看看！
+          new_new: 目前沒有新內容……過一會兒再回來看看！
+          topic_tracking_preferences: 您可以在<a href="%{basePath}/my/preferences/tracking">您的偏好設定</a>中檢視並變更新主題的追蹤設定。
+          unread: 沒有未讀話題，太棒了！
+    user:
+      change_username:
+        invalid: 該使用者名稱無效，使用者名稱只能包含漢字、數字、字母、連字號、點和底線
+      delete_account_confirm: 確定要永久刪除您的帳號嗎？此動作無法復原！
+      email:
+        instructions: 不會公開顯示
+      mailing_list_mode:
+        warning: 已啟用郵件列表模式。電子郵件通知設定已被覆寫。
+      name:
+        instructions: 公開顯示用的全名（選填）
+        instructions_required: 公開顯示用的全名
+      passkeys:
+        confirm_button: 或使用通行密鑰
+        not_allowed_error: 通行密鑰註冊過程超時、被取消或不被允許。
+        passkey_successfully_created: 成功！您的新通行密鑰已建立。
+      revoke_access: 撤銷存取權限
+      second_factor_backup:
+        copied_to_clipboard: 已複製至剪貼簿
+      staff_counters:
+        silencings:
+          other: 被禁言<span class="%{className}">%{count}</span>次
+      undo_revoke_access: 復原撤銷存取權

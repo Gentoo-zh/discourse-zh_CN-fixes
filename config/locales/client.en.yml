@@ -1,0 +1,7 @@
+# client.en.yml — 由 scripts/merge 生成
+en:
+  js:
+    login:
+      oidc:
+        name: Codeberg
+        title: Log in with Codeberg
